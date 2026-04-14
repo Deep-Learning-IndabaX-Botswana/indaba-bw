@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme - Deep Learning Indaba × Botswana 2026</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/images/indabax_logo.png" alt="IndabaX Botswana" class="logo-img">
+                        <span class="logo-text">IndabaX<span class="logo-highlight"> BW</span></span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about">About</a>
+                    <a href="programme">Programme</a>
+                    <a href="sponsors">Sponsors</a>
+                    <a href="register" class="register-btn">Register</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+<section class="page-header">
+    <div class="container">
+        <h1>Event Programme</h1>
+        <p class="page-header-sub">July 29–31, 2026 · Botswana School of Business Science</p>
+    </div>
+</section>
+<div class="ix-african-strip"></div>
+
+<!-- ── Coming soon banner ── -->
+<section class="coming-soon-section">
+    <div class="container">
+        <div class="coming-soon-card">
+            <i class="fas fa-calendar-alt cs-icon"></i>
+            <h2>Programme Coming Soon</h2>
+            <p>We're finalising an exciting line-up of keynotes, workshops, and research presentations. The full programme will be announced in the coming weeks — check back soon!</p>
+            <div class="cs-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Botswana School of Business Science, Gaborone</span>
+                <span><i class="fas fa-calendar-alt"></i> July 29–31, 2026</span>
+            </div>
+            <p class="cs-notify">Want to be notified? <a href="mailto:info@indabaxbotswana.org">info@indabaxbotswana.org</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- ── Day overview preview ── -->
+<section class="programme-days-preview">
+    <div class="container">
+        <h2 class="section-title" style="text-align:center;">What to <span style="color:var(--brand-navy);">Expect</span></h2>
+        <p class="section-subtitle">Three packed days of learning, collaboration, and community</p>
+        <div class="day-preview-grid">
+
+            <div class="day-preview-card">
+                <div class="day-preview-header">
+                    <span class="dp-day-num">01</span>
+                    <span class="dp-day-theme">AI Fest &amp; Exhibition<br><small style="font-weight:400;opacity:.75;font-size:.85rem;">July 29</small></span>
+                </div>
+                <div class="day-preview-body">
+                    <ul>
+                        <li>Opening keynote address</li>
+                        <li>AI Fest startup &amp; industry exhibition</li>
+                        <li>Poster session &amp; research presentations</li>
+                        <li>Evening networking reception</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="day-preview-card">
+                <div class="day-preview-header">
+                    <span class="dp-day-num">02</span>
+                    <span class="dp-day-theme">Practical Workshops<br><small style="font-weight:400;opacity:.75;font-size:.85rem;">July 30</small></span>
+                </div>
+                <div class="day-preview-body">
+                    <ul>
+                        <li>Beginner: Python &amp; Machine Learning</li>
+                        <li>Intermediate: Deep Learning in practice</li>
+                        <li>Data Science with R</li>
+                        <li>NLP Essentials</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="day-preview-card">
+                <div class="day-preview-header">
+                    <span class="dp-day-num">03</span>
+                    <span class="dp-day-theme">Main Conference<br><small style="font-weight:400;opacity:.75;font-size:.85rem;">July 31</small></span>
+                </div>
+                <div class="day-preview-body">
+                    <ul>
+                        <li>Technical presentations &amp; research spotlights</li>
+                        <li>Panel: AI in Healthcare, Finance &amp; Industry</li>
+                        <li>Panel: Building AI Startups in Africa</li>
+                        <li>Hackathon awards &amp; closing ceremony</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@indabaxbotswana.org</p>
+                <p>Phone: +267 3555000</p>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/dlixbw/" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/deep-learning-indaba-x-botswana/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about">About</a>
+                <a href="programme">Programme</a>
+                <a href="sponsors">Sponsors</a>
+                <a href="register">Register</a>
+            </div>
+            <div class="footer-section">
+                <h3>About IndabaX BW</h3>
+                <p>Deep Learning Indaba × Botswana brings together Africa's AI community to build solutions using local data and drive innovation across the continent.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deep Learning Indaba × Botswana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+    
+</body>
+</html>

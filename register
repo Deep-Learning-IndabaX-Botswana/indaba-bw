@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Deep Learning Indaba × Botswana 2026</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/images/indabax_logo.png" alt="IndabaX Botswana" class="logo-img">
+                        <span class="logo-text">IndabaX<span class="logo-highlight"> BW</span></span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about">About</a>
+                    <a href="programme">Programme</a>
+                    <a href="sponsors">Sponsors</a>
+                    <a href="register" class="register-btn">Register</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+<section class="page-header">
+    <div class="container">
+        <h1>Register for IndabaX Botswana</h1>
+        <p class="page-header-sub">Secure your spot — free for students!</p>
+    </div>
+</section>
+<div class="ix-african-strip"></div>
+
+<section class="registration-section">
+    <div class="container">
+        <div class="two-column">
+            <div class="column">
+                <h2>Registration Information</h2>
+                <p>Join us for three days of learning, networking, and collaboration at IndabaX Botswana 2026. Registration includes:</p>
+                <ul class="registration-benefits">
+                    <li>Access to all conference sessions and workshops</li>
+                    <li>Conference materials and resources</li>
+                    <li>Lunch and refreshments during the event</li>
+                    <li>Certificate of participation</li>
+                    <li>Networking opportunities with speakers and attendees</li>
+                </ul>
+                
+                <div class="registration-types">
+                    <h3>Registration Types</h3>
+                    <div class="registration-type">
+                        <h4>Student</h4>
+                        <p class="price">P300</p>
+                        <p>For full-time students with valid student ID</p>
+                    </div>
+                    <div class="registration-type">
+                        <h4>Academic</h4>
+                        <p class="price">P600</p>
+                        <p>For faculty and researchers from academic institutions</p>
+                    </div>
+                    <div class="registration-type">
+                        <h4>Industry</h4>
+                        <p class="price">P1,200</p>
+                        <p>For professionals from industry and government</p>
+                    </div>
+                </div>
+                
+                <div class="important-dates">
+                    <h3>Important Dates</h3>
+                    <ul>
+                        <li>Early Bird Registration Deadline: March 31, 2026</li>
+                        <li>Regular Registration Deadline: May 31, 2026</li>
+                        <li>Late Registration: June 1–10, 2026 (additional fee applies)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="apps-soon-card">
+                    <i class="fas fa-hourglass-half cs-icon"></i>
+                    <h2>Applications Opening Soon</h2>
+                    <p>Registration for IndabaX Botswana 2026 is not yet open. We'll launch applications in early 2026 — watch this space!</p>
+                    <ul class="apps-soon-dates">
+                        <li>Early Bird Deadline: March 31, 2026</li>
+                        <li>Regular Deadline: May 31, 2026</li>
+                        <li>Late Registration: June 1–10, 2026</li>
+                    </ul>
+                    <p class="cs-notify">Get notified when registration opens:<br>
+                        <a href="mailto:info@indabaxbotswana.org">info@indabaxbotswana.org</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>Is there financial support available for students?</h3>
+                <p>Yes, we offer a limited number of scholarships for students. Please email <a href="mailto:scholarships@indabaxbotswana.org">scholarships@indabaxbotswana.org</a> for more information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I register for specific days only?</h3>
+                <p>Yes, single-day registrations are available. Please contact us for pricing and availability.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What is the cancellation policy?</h3>
+                <p>Cancellations made before May 15, 2026 will receive a full refund minus a P100 processing fee. No refunds will be issued after this date.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Will the presentations be recorded?</h3>
+                <p>Yes, most sessions will be recorded and made available to registered participants after the event.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@indabaxbotswana.org</p>
+                <p>Phone: +267 3555000</p>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/dlixbw/" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/deep-learning-indaba-x-botswana/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about">About</a>
+                <a href="programme">Programme</a>
+                <a href="sponsors">Sponsors</a>
+                <a href="register">Register</a>
+            </div>
+            <div class="footer-section">
+                <h3>About IndabaX BW</h3>
+                <p>Deep Learning Indaba × Botswana brings together Africa's AI community to build solutions using local data and drive innovation across the continent.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deep Learning Indaba × Botswana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+    
+</body>
+</html>

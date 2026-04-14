@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors & Partners - Deep Learning Indaba × Botswana 2026</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/images/indabax_logo.png" alt="IndabaX Botswana" class="logo-img">
+                        <span class="logo-text">IndabaX<span class="logo-highlight"> BW</span></span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about">About</a>
+                    <a href="programme">Programme</a>
+                    <a href="sponsors">Sponsors</a>
+                    <a href="register" class="register-btn">Register</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+<section class="page-header">
+    <div class="container">
+        <h1>Sponsors &amp; Partners</h1>
+        <p class="page-header-sub">Help us advance AI education and innovation across Botswana</p>
+    </div>
+</section>
+<div class="ix-african-strip"></div>
+
+<section class="sponsors-intro">
+    <div class="container">
+        <h2>Our Valued Supporters</h2>
+        <p>IndabaX Botswana is made possible through the generous support of our sponsors and partners. Their commitment to advancing AI education and research in Botswana helps us create a meaningful and impactful event.</p>
+    </div>
+</section>
+
+<section class="sponsors-section">
+    <div class="container">
+        <h2>Sponsorship Tiers & Benefits</h2>
+        <div class="table-wrapper">
+            <table class="sponsor-table">
+                <thead>
+                    <tr>
+                        <th>Benefit</th>
+                        <th>Gold<br>P100,000</th>
+                        <th>Silver<br>P50,000</th>
+                        <th>Bronze<br>P25,000</th>
+                        <th>Blue<br>P15,000</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Recognition &amp; Branding</strong></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Brochures &amp; Swag Distribution</strong></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>AI Fest Booth</strong></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Participant Passes</strong></td>
+                        <td>×10</td>
+                        <td>×7</td>
+                        <td>×5</td>
+                        <td>×3</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Access to CVs</strong></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Industry Session</strong></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Poster/Track Sponsor</strong></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Innovation Sponsor</strong></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="sponsors-grid">
+            
+        </div>
+    </div>
+</section>
+
+<section class="become-sponsor">
+    <div class="container">
+        <div class="sponsor-cta">
+            <div class="cta-content">
+                <h2>Become a Sponsor</h2>
+                <p>Join our mission to advance AI education and innovation in Botswana. As a sponsor, you'll gain visibility among AI researchers, practitioners, and enthusiasts while supporting the growth of Botswana's tech ecosystem.</p>
+                <h3>Sponsorship Benefits</h3>
+                <ul>
+                    <li>Brand visibility to a targeted audience of AI professionals and enthusiasts</li>
+                    <li>Networking opportunities with researchers, industry leaders, and students</li>
+                    <li>Demonstration of your organization's commitment to AI advancement in Botswana</li>
+                    <li>Access to talent recruitment opportunities</li>
+                    <li>Customized sponsorship packages to meet your organization's goals</li>
+                </ul>
+            </div>
+            <div class="cta-action">
+                <a href="#" class="button">Download Sponsorship Prospectus</a>
+                <a href="mailto:sponsors@indabaxbotswana.org" class="button secondary">Contact Sponsorship Team</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners-section">
+    <div class="container">
+        <h2>Venue Partner</h2>
+        <div class="partners-grid partners-grid-center">
+            <div class="partner-card partner-card-featured">
+                <div class="partner-logo placeholder"></div>
+                <h3>Botswana School of Business Science</h3>
+                <p class="partner-role">Official Venue Partner · Gaborone</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@indabaxbotswana.org</p>
+                <p>Phone: +267 3555000</p>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/dlixbw/" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/deep-learning-indaba-x-botswana/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about">About</a>
+                <a href="programme">Programme</a>
+                <a href="sponsors">Sponsors</a>
+                <a href="register">Register</a>
+            </div>
+            <div class="footer-section">
+                <h3>About IndabaX BW</h3>
+                <p>Deep Learning Indaba × Botswana brings together Africa's AI community to build solutions using local data and drive innovation across the continent.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deep Learning Indaba × Botswana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+    
+</body>
+</html>
