@@ -1,8 +1,40 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Deep Learning Indaba × Botswana 2026</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/images/indabax_logo.png" alt="IndabaX Botswana" class="logo-img">
+                        <span class="logo-text">IndabaX<span class="logo-highlight"> BW</span></span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about">About</a>
+                    <a href="programme">Programme</a>
+                    <a href="sponsors">Sponsors</a>
+                    <a href="register" class="register-btn">Register</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-{% block title %}Register - {{ event.title }}{% endblock %}
-
-{% block content %}
+    <main>
+        
 <section class="page-header">
     <div class="container">
         <h1>Register for IndabaX Botswana</h1>
@@ -95,5 +127,39 @@
         </div>
     </div>
 </section>
-{% endblock %}
 
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@indabaxbotswana.org</p>
+                <p>Phone: +267 3555000</p>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/dlixbw/" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/deep-learning-indaba-x-botswana/posts/?feedView=all" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about">About</a>
+                <a href="programme">Programme</a>
+                <a href="sponsors">Sponsors</a>
+                <a href="register">Register</a>
+            </div>
+            <div class="footer-section">
+                <h3>About IndabaX BW</h3>
+                <p>Deep Learning Indaba × Botswana brings together Africa's AI community to build solutions using local data and drive innovation across the continent.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deep Learning Indaba × Botswana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+    
+</body>
+</html>

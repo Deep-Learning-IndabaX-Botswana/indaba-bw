@@ -1,115 +1,171 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<section class="hero">
-    <div class="hero-content">
-        <h1>{{ event.title }}</h1>
-        <h2>{{ event.tagline }}</h2>
-        <p class="event-date">{{ event.date_string }} | {{ event.venue }}</p>
-        <div class="cta-buttons">
-            <a href="{{ url_for('register') }}" class="cta-button primary">Register Now</a>
-            <a href="#" class="cta-button secondary">Submit a Talk</a>
-        </div>
-    </div>
-</section>
 
-<section class="countdown-section">
-    <div class="container">
-        <h2>Event Starts In</h2>
-        <div class="countdown">
-            <div class="countdown-item">
-                <span id="days">{{ countdown.days }}</span>
-                <span class="label">Days</span>
-            </div>
-            <div class="countdown-item">
-                <span id="hours">{{ countdown.hours }}</span>
-                <span class="label">Hours</span>
-            </div>
-            <div class="countdown-item">
-                <span id="minutes">{{ countdown.minutes }}</span>
-                <span class="label">Minutes</span>
-            </div>
-            <div class="countdown-item">
-                <span id="seconds">{{ countdown.seconds }}</span>
-                <span class="label">Seconds</span>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="ix-hero">
+    <div class="ix-hero-bg"></div>
+    <div class="container ix-hero-container">
+        <div class="ix-hero-inner">
 
-<section class="intro-section">
-    <div class="container">
-        <div class="two-column">
-            <div class="column">
-                <h2>Welcome to IndabaX Botswana</h2>
-                <p>{{ event.description }}</p>
-                <p>Join researchers, industry professionals, students, and AI enthusiasts for three days of knowledge sharing, networking, and collaboration.</p>
-                <a href="{{ url_for('about') }}" class="learn-more">Learn More</a>
-            </div>
-            <div class="column">
-                <div class="event-highlights">
-                    <div class="highlight-item">
-                        <i class="fas fa-users"></i>
-                        <h3>300+ Attendees</h3>
-                        <p>Connect with AI enthusiasts from across Botswana and beyond</p>
-                    </div>
-                    <div class="highlight-item">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                        <h3>20+ Speakers</h3>
-                        <p>Learn from leading experts in AI and machine learning</p>
-                    </div>
-                    <div class="highlight-item">
-                        <i class="fas fa-laptop-code"></i>
-                        <h3>10 Workshops</h3>
-                        <p>Hands-on sessions for all skill levels</p>
-                    </div>
-                    <div class="highlight-item">
-                        <i class="fas fa-rocket"></i>
-                        <h3>AI Expo</h3>
-                        <p>Showcasing local innovations and applications</p>
-                    </div>
+            <!-- LEFT: text -->
+            <div class="ix-hero-text">
+                <div class="ix-badge-row">
+                    <span class="ix-badge"><i class="fas fa-map-marker-alt"></i> Gaborone, Botswana</span>
+                    <span class="ix-badge ix-badge-outline"><i class="fas fa-calendar-alt"></i> {{ event.date_string }}</span>
+                </div>
+                <h1 class="ix-title">
+                    Deep Learning<br>
+                    <span class="ix-gold">IndabaX</span> Botswana<br>
+                    <span class="ix-title-year">2026</span>
+                </h1>
+                <p class="ix-tagline">"{{ event.tagline }}"</p>
+                <p class="ix-desc">{{ event.description }}</p>
+                <div class="ix-cta-row">
+                    <a href="{{ url_for('register') }}" class="ix-btn-primary">Register Now</a>
+                    <a href="{{ url_for('about') }}" class="ix-btn-secondary">Learn More</a>
                 </div>
             </div>
+
+            <!-- RIGHT: diamond visual grid -->
+            <div class="ix-hero-visual" aria-hidden="true">
+                <div class="ix-diamond ix-d1"><i class="fas fa-brain"></i></div>
+                <div class="ix-diamond ix-d2"><i class="fas fa-globe-africa"></i></div>
+                <div class="ix-diamond ix-d3"><i class="fas fa-users"></i></div>
+                <div class="ix-diamond ix-d4"><i class="fas fa-lightbulb"></i></div>
+                <div class="ix-hero-ring"></div>
+            </div>
+
+        </div>
+
+        <!-- countdown -->
+        <div class="ix-countdown">
+            <div class="ix-cd-item"><span class="ix-cd-num" id="days">{{ countdown.days }}</span><span class="ix-cd-lbl">Days</span></div>
+            <div class="ix-cd-item"><span class="ix-cd-num" id="hours">{{ countdown.hours }}</span><span class="ix-cd-lbl">Hours</span></div>
+            <div class="ix-cd-item"><span class="ix-cd-num" id="minutes">{{ countdown.minutes }}</span><span class="ix-cd-lbl">Minutes</span></div>
+            <div class="ix-cd-item"><span class="ix-cd-num" id="seconds">{{ countdown.seconds }}</span><span class="ix-cd-lbl">Seconds</span></div>
+        </div>
+    </div>
+    <div class="ix-african-strip"></div>
+</section>
+
+<!-- ═══════════════════════════ STATS BAR ═══════════════════════════ -->
+<section class="ix-stats">
+    <div class="container">
+        <div class="ix-stats-grid">
+            <div class="ix-stat"><span class="ix-stat-num">25+</span><span class="ix-stat-lbl">Speakers</span></div>
+            <div class="ix-stat"><span class="ix-stat-num">300+</span><span class="ix-stat-lbl">Participants</span></div>
+            <div class="ix-stat"><span class="ix-stat-num">3</span><span class="ix-stat-lbl">Day Event</span></div>
+            <div class="ix-stat"><span class="ix-stat-num">10+</span><span class="ix-stat-lbl">Workshops</span></div>
         </div>
     </div>
 </section>
 
-<section class="featured-speakers">
+<!-- ═══════════════════════════ MISSION ═══════════════════════════ -->
+<section class="ix-mission">
     <div class="container">
-        <h2>Featured Speakers</h2>
-        <p class="section-intro">Meet some of our distinguished speakers who will be sharing their insights and expertise.</p>
-        <div class="speakers-grid">
-            <div class="speaker-card">
-                <div class="speaker-image placeholder"></div>
-                <h3>Prof. Bakang Kgopolo</h3>
-                <p class="speaker-title">AI Ethics Researcher, University of Cape Town</p>
-                <p>Keynote: "Responsible AI Development in African Contexts"</p>
+        <div class="ix-mission-split">
+            <div class="ix-mission-text">
+                <h2 class="ix-section-title">Mission &amp; <span class="ix-gold">Key Programmes</span></h2>
+                <p class="ix-mission-body">Inspired by the Indaba's mission, we saw the potential to <span class="ix-gold">ignite Botswana's AI community</span>. A team of passionate AI professionals and enthusiasts came together, determined to make this event <span class="ix-gold">community-driven and impactful</span>.</p>
+                <ul class="ix-checklist">
+                    <li><i class="fas fa-check-circle"></i> Spread <span class="ix-gold">scientific knowledge</span> amongst researchers</li>
+                    <li><i class="fas fa-check-circle"></i> Showcase <span class="ix-gold">cutting-edge applications</span> from industry partners</li>
+                    <li><i class="fas fa-check-circle"></i> Provide a <span class="ix-gold">practical introduction</span> to deep learning for beginners</li>
+                    <li><i class="fas fa-check-circle"></i> Build a <span class="ix-gold">community</span> of responsible AI practitioners</li>
+                </ul>
+                <div class="ix-free-pill"><i class="fas fa-star"></i> The IndabaX is <strong>free to attend</strong> for students!</div>
             </div>
-            <div class="speaker-card">
-                <div class="speaker-image placeholder"></div>
-                <h3>Dr. Bakang Kgopolo</h3>
-                <p class="speaker-title">Lead Data Scientist, Botswana Innovation Hub</p>
-                <p>Talk: "Machine Learning Applications in Agriculture"</p>
+            <div class="ix-mission-visual" aria-hidden="true">
+                <div class="ix-speaker-frame">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+                <div class="ix-visual-dot ix-dot-a"></div>
+                <div class="ix-visual-dot ix-dot-b"></div>
+                <div class="ix-visual-dot ix-dot-c"></div>
             </div>
-            <div class="speaker-card">
-                <div class="speaker-image placeholder"></div>
-                <h3>Ms. Bakang Kgopolo</h3>
-                <p class="speaker-title">Tech Entrepreneur & AI Advocate</p>
-                <p>Panel: "Building AI Startups in Botswana"</p>
-            </div>
-            <div class="speaker-card">
-                <div class="speaker-image placeholder"></div>
-                <h3>Ms. Bakang Kgopolo</h3>
-                <p class="speaker-title">Tech Entrepreneur & AI Advocate</p>
-                <p>Panel: "Building AI Startups in Botswana"</p>
-            </div>
-        </div>
-        <div class="center-button">
-            <a href="{{ url_for('programme_page') }}" class="button">View Full Programme</a>
         </div>
     </div>
 </section>
+
+<!-- ═══════════════════════════ HIGHLIGHTS ═══════════════════════════ -->
+<section class="ix-highlights">
+    <div class="ix-african-strip ix-strip-top"></div>
+    <div class="container">
+        <h2 class="ix-section-title ix-centered">Event <span class="ix-gold">Highlights</span></h2>
+        <p class="ix-section-sub">Three days of inspiring talks, practical workshops, and networking opportunities</p>
+        <div class="ix-cards-grid">
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-rocket"></i></div><h3>AI Fest &amp; Exhibition</h3><p>Showcase of startups and companies innovating with AI. Network with entrepreneurs and industry leaders.</p></div>
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-laptop-code"></i></div><h3>Practical Workshops</h3><p>Hands-on training in Python, Machine Learning, Data Science, and AI for all skill levels.</p></div>
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Keynotes &amp; Panels</h3><p>Expert insights on AI's impact and future in Africa, with panel discussions on emerging topics.</p></div>
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-flask"></i></div><h3>Research Presentations</h3><p>Platform for students and researchers to showcase their work through poster sessions and talks.</p></div>
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-handshake"></i></div><h3>Networking Reception</h3><p>Evening events to connect with peers, mentors, and industry professionals in a relaxed atmosphere.</p></div>
+            <div class="ix-card"><div class="ix-card-icon"><i class="fas fa-globe-africa"></i></div><h3>Community Building</h3><p>Join Botswana's AI community and be part of a movement to strengthen machine learning innovation.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ SCHEDULE ═══════════════════════════ -->
+<section class="ix-schedule">
+    <div class="container">
+        <h2 class="ix-section-title ix-centered">Event <span class="ix-gold">Schedule</span></h2>
+        <p class="ix-section-sub">Three days packed with learning and networking opportunities</p>
+        <div class="ix-schedule-grid">
+            {% for schedule in programme[:3] %}
+            <div class="ix-schedule-card">
+                <div class="ix-schedule-header">
+                    <span class="ix-day-num">Day {{ loop.index }}</span>
+                    <span class="ix-day-name">{{ schedule.day }}</span>
+                </div>
+                <div class="ix-schedule-body">
+                    {% for ev in schedule.events[:4] %}
+                    <div class="ix-sched-row">
+                        <span class="ix-sched-time">{{ ev.time }}</span>
+                        <span class="ix-sched-title">{{ ev.title }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="ix-centered" style="margin-top:2.5rem;">
+            <a href="{{ url_for('programme_page') }}" class="ix-btn-primary">View Full Programme →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ TEAM ═══════════════════════════ -->
+<section class="ix-team">
+    <div class="container">
+        <h2 class="ix-section-title ix-centered">Organizing <span class="ix-gold">Committee</span></h2>
+        <p class="ix-section-sub">Meet the dedicated team leading the conference</p>
+        <div class="ix-team-grid">
+            {% for organizer in organizers[:6] %}
+            <div class="ix-team-card">
+                <div class="ix-team-avatar"><i class="fas fa-user"></i></div>
+                <h3>{{ organizer.name }}</h3>
+                <p class="ix-team-role">{{ organizer.role }}</p>
+                <p class="ix-team-bio">{{ organizer.bio }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════ CTA ═══════════════════════════ -->
+<section class="ix-cta">
+    <div class="ix-african-strip"></div>
+    <div class="container ix-cta-inner">
+        <div>
+            <h2 class="ix-cta-title">Ready to <span class="ix-gold">Join Us?</span></h2>
+            <p class="ix-cta-sub">Secure your spot at IndabaX Botswana 2026 — <strong>free for students!</strong></p>
+        </div>
+        <a href="{{ url_for('register') }}" class="ix-btn-primary ix-btn-lg">Register Now →</a>
+    </div>
+</section>
+
 {% endblock %}
+
 
 {% block extra_scripts %}
 <script>

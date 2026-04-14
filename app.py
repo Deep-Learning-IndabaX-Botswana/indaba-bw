@@ -4,13 +4,14 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Configuration
-event_date = datetime(2025, 6, 30, 9, 0, 0)  # Example date: June 15, 2025 at 9:00 AM
+event_date = datetime(2026, 7, 29, 9, 0, 0)  # July 29, 2026 at 9:00 AM
 event_info = {
-    "title": "IndabaX Botswana 2025",
-    "tagline": "From Knowledge to Impact: Harnessing AI for Botswana's Growth",
-    "description": "Join us for Botswana's premier AI conference, bringing together researchers, practitioners, and enthusiasts to explore the latest in artificial intelligence and its applications for national development.",
-    "venue": "Botho University, Gaborone",
-    "date_string": "June 30 - July 2, 2025"
+    "title": "Deep Learning Indaba × Botswana 2026",
+    "tagline": "Our Data. Our Intelligence. Our Future.",
+    "description": "Join Botswana's premier AI conference bringing together researchers, developers, startups, and innovators to build solutions using African data, empower local talent, and drive real-world impact across key sectors.",
+    "venue": "Botswana School of Business Science, Gaborone",
+    "date_string": "July 29 - 31, 2026",
+    "theme": "Our Data. Our Intelligence. Our Future."
 }
 
 organizers = [
@@ -27,68 +28,51 @@ organizers = [
 
 programme = [
     {
-        "day": "Day 1 - June 15",
+        "day": "Day 1 - July 29: AI Fest + Poster Session",
         "events": [
-            {"time": "08:30 - 09:10", "title": "Registration", "description": ""},
-            {"time": "09:10 - 09:15", "title": "Welcome remarks", "description": ""},
-            {"time": "09:15 - 10:15", "title": "Community Empowerment through Technology", "description": "Cultivating a Research Culture in Botswana"},
-            {"time": "10:20 - 10:50", "title": "Catalyzing Innovation", "description": "Government Initiatives to Boost Technology Research in Botswana"},
-            {"time": "10:55 - 11:15", "title": "Tea break", "description": ""},
-            {"time": "11:15 - 11:45", "title": "Guest Presentation", "description": "Topic - Guest presentation"},
-            {"time": "11:50 - 12:20", "title": "Exploring the Intersection of AI and Industry", "description": "Prospects and Hurdles for Researchers and Startups"},
-            {"time": "12:25 - 12:45", "title": "Advancing Frontiers", "description": "The State of Artificial Intelligence in Botswana's Higher Education"},
-            {"time": "12:45 - 13:00", "title": "Hackathon starts", "description": ""},
-            {"time": "13:00 - 14:00", "title": "Lunch Break & Group Pics", "description": ""},
-            {"time": "14:00 - 16:00", "title": "Poster Session", "description": ""},
-            {"time": "16:05 - 16:15", "title": "AI in African Industries and Beyond", "description": "Bridging the Gap. Inspiring Data Science Enthusiasts Online: Becoming Heroes."},
-            {"time": "16:20", "title": "Closing remarks", "description": ""}
+            {"time": "08:30 - 09:00", "title": "Registration & Breakfast", "description": ""},
+            {"time": "09:00 - 09:30", "title": "Welcome Address", "description": "Opening remarks and event overview"},
+            {"time": "09:30 - 10:30", "title": "Keynote Presentation", "description": "Inspiring keynote on AI in Africa"},
+            {"time": "10:30 - 11:00", "title": "Tea Break", "description": ""},
+            {"time": "11:00 - 13:00", "title": "AI Fest Exhibition", "description": "Startup and company exhibitions showcasing AI innovations in Botswana"},
+            {"time": "13:00 - 14:00", "title": "Lunch Break", "description": ""},
+            {"time": "14:00 - 17:00", "title": "Poster Session & Research Presentations", "description": "Student and researcher poster presentations with Q&A"},
+            {"time": "17:00 - 18:00", "title": "Networking Reception", "description": "Evening networking and community engagement"}
         ]
     },
     {
-        "day": "Day 2 - June 16",
+        "day": "Day 2 - July 30: Practical Workshops",
         "events": [
-            {"time": "08:30 - 09:10", "title": "Registration", "description": ""},
-            {"time": "09:10 - 09:15", "title": "Welcome remarks", "description": ""},
-            {"time": "09:15 - 10:15", "title": "Community Empowerment through Technology", "description": "Cultivating a Research Culture in Botswana"},
-            {"time": "10:20 - 10:50", "title": "Catalyzing Innovation", "description": "Government Initiatives to Boost Technology Research in Botswana"},
-            {"time": "10:55 - 11:15", "title": "Tea break", "description": ""},
-            {"time": "11:15 - 11:45", "title": "Guest Presentation", "description": "Topic - Guest presentation"},
-            {"time": "11:50 - 12:20", "title": "Exploring the Intersection of AI and Industry", "description": "Prospects and Hurdles for Researchers and Startups"},
-            {"time": "12:25 - 12:45", "title": "Advancing Frontiers", "description": "The State of Artificial Intelligence in Botswana's Higher Education"},
-            {"time": "12:45 - 13:00", "title": "Hackathon continues", "description": ""},
-            {"time": "13:00 - 14:00", "title": "Lunch Break & Group Pics", "description": ""},
-            {"time": "14:00 - 16:00", "title": "Poster Session", "description": ""},
-            {"time": "16:05 - 16:15", "title": "AI in African Industries and Beyond", "description": "Bridging the Gap. Inspiring Data Science Enthusiasts Online: Becoming Heroes."},
-            {"time": "16:20", "title": "Closing remarks", "description": ""}
+            {"time": "08:30 - 09:00", "title": "Registration & Breakfast", "description": ""},
+            {"time": "09:00 - 12:30", "title": "Workshop Track A: Python & Machine Learning (Beginner)", "description": "Hands-on introduction to ML fundamentals using Python"},
+            {"time": "09:00 - 12:30", "title": "Workshop Track B: Python & Machine Learning (Intermediate)", "description": "Advanced ML techniques and real-world applications"},
+            {"time": "09:00 - 12:30", "title": "Workshop Track C: Data Science with R", "description": "Statistical analysis and data visualization using R"},
+            {"time": "12:30 - 13:30", "title": "Lunch Break", "description": ""},
+            {"time": "13:30 - 17:00", "title": "Workshop Track A: AI Applications (Beginner)", "description": "Getting started with practical AI solutions"},
+            {"time": "13:30 - 17:00", "title": "Workshop Track B: AI Applications (Intermediate)", "description": "Deep learning and neural networks in practice"},
+            {"time": "13:30 - 17:00", "title": "Workshop Track C: NLP Essentials", "description": "Natural Language Processing fundamentals and applications"},
+            {"time": "17:00 - 17:30", "title": "Workshop Wrap-up", "description": "Q&A and resource sharing"}
         ]
     },
     {
-        "day": "Day 3 - June 17",
+        "day": "Day 3 - July 31: Main Conference",
         "events": [
-            {"time": "08:30 - 09:10", "title": "Registration", "description": ""},
-            {"time": "09:10 - 09:15", "title": "Welcome remarks", "description": ""},
-            {"time": "09:15 - 10:15", "title": "Community Empowerment through Technology", "description": "Cultivating a Research Culture in Botswana"},
-            {"time": "10:20 - 10:50", "title": "Catalyzing Innovation", "description": "Government Initiatives to Boost Technology Research in Botswana"},
-            {"time": "10:55 - 11:15", "title": "Tea break", "description": ""},
-            {"time": "11:15 - 11:45", "title": "Guest Presentation", "description": "Topic - Guest presentation"},
-            {"time": "11:50 - 12:20", "title": "Exploring the Intersection of AI and Industry", "description": "Prospects and Hurdles for Researchers and Startups"},
-            {"time": "12:25 - 12:45", "title": "Advancing Frontiers", "description": "The State of Artificial Intelligence in Botswana's Higher Education"},
-            {"time": "12:45 - 13:00", "title": "Hackathon Finals", "description": "Presentation of solutions"},
-            {"time": "13:00 - 14:00", "title": "Lunch Break & Group Pics", "description": ""},
-            {"time": "14:00 - 16:00", "title": "Poster Session", "description": ""},
-            {"time": "16:05 - 16:15", "title": "AI in African Industries and Beyond", "description": "Bridging the Gap. Inspiring Data Science Enthusiasts Online: Becoming Heroes."},
-            {"time": "16:20", "title": "Closing Ceremony", "description": "Awards and closing remarks"}
+            {"time": "08:30 - 09:00", "title": "Registration & Breakfast", "description": ""},
+            {"time": "09:00 - 10:00", "title": "Opening Keynote", "description": "Visionary keynote on AI's future in Africa"},
+            {"time": "10:00 - 11:00", "title": "Technical Presentation 1", "description": "Research spotlight session"},
+            {"time": "11:00 - 11:30", "title": "Tea Break", "description": ""},
+            {"time": "11:30 - 12:30", "title": "Technical Presentation 2", "description": "Industry innovation showcase"},
+            {"time": "12:30 - 13:30", "title": "Lunch Break", "description": ""},
+            {"time": "13:30 - 14:30", "title": "Panel Discussion 1", "description": "AI in Healthcare, Finance & Industry with leading experts"},
+            {"time": "14:30 - 15:00", "title": "Tea Break", "description": ""},
+            {"time": "15:00 - 16:00", "title": "Panel Discussion 2", "description": "Building AI Startups: Challenges and Opportunities"},
+            {"time": "16:00 - 16:30", "title": "Hackathon Awards", "description": "Recognition and prizes for best solutions"},
+            {"time": "16:30 - 17:00", "title": "Closing Ceremony", "description": "Event highlights and future outlook"}
         ]
     }
 ]
 
-sponsors = [
-    {"name": "Ministry of Tertiary Education", "level": "Platinum", "logo": "ministry_logo.png"},
-    {"name": "Botswana Innovation Hub", "level": "Gold", "logo": "bih_logo.png"},
-    {"name": "University of Botswana", "level": "Gold", "logo": "uob_logo.png"},
-    {"name": "Orange Botswana", "level": "Silver", "logo": "orange_logo.png"},
-    {"name": "Mascom", "level": "Silver", "logo": "mascom_logo.png"}
-]
+sponsors = []
 
 @app.route('/')
 def home():
@@ -104,7 +88,9 @@ def home():
     return render_template('index.html', 
                           event=event_info, 
                           countdown=countdown,
-                          event_date=event_date)
+                          event_date=event_date,
+                          organizers=organizers,
+                          programme=programme)
 
 @app.route('/about')
 def about():
