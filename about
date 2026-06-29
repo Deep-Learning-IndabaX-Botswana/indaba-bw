@@ -38,32 +38,29 @@
 <section class="page-header">
     <div class="container">
         <h1>About IndabaX Botswana</h1>
-        <p class="page-header-sub">Deep Learning IndabaX Botswana 2026 · Gaborone</p>
+        <p class="page-header-sub">Our Data. Our Intelligence. Our Future.</p>
     </div>
 </section>
 <div class="ix-african-strip"></div>
 
 <section class="about-section">
     <div class="container">
-        <h2>What is Deep Learning Indaba × Botswana 2026?</h2>
-        <p>Deep Learning Indaba × Botswana is a premier AI conference bringing together researchers, developers, startups, and innovators across Botswana and beyond.</p>
-        <p>Our 2026 event centers on the theme <strong>"Our Data. Our Intelligence. Our Future."</strong> reflecting a bold vision for AI in Africa:</p>
+        <p class="about-kicker">Deep Learning IndabaX Botswana 2026</p>
+        <h2>Igniting Botswana's AI community through learning, leadership, and local impact.</h2>
         <div class="about-grid">
             <div>
-                <ul>
-                    <li><strong>Building solutions</strong> using African data</li>
-                    <li><strong>Empowering local talent</strong> and innovation</li>
-                    <li><strong>Driving real-world impact</strong> across key sectors</li>
-                </ul>
-                <p>Through workshops, technical sessions, keynotes, AI Fest exhibitions, and networking opportunities, we create a platform for advancing AI education and real-world application in Botswana.</p>
+                <p>Inspired by the Deep Learning Indaba mission, IndabaX Botswana brings together students, researchers, developers, startups, industry partners, and public-sector stakeholders to strengthen machine learning in Botswana.</p>
+                <p>The 2026 gathering is community-driven and practical: it spreads scientific knowledge, showcases cutting-edge applications, introduces beginners to deep learning, and builds a community of responsible AI practitioners.</p>
+                <p>Our theme, <strong>"Our Data. Our Intelligence. Our Future."</strong>, is a call to move from consumption to ownership: African data, African builders, and measurable benefits for African communities.</p>
+                <div class="ix-free-pill"><i class="fas fa-star"></i> The IndabaX is <strong>free to attend</strong> for students.</div>
             </div>
             <div class="event-details-card">
-                <h3>Event Details</h3>
-                <p><strong>Dates:</strong> July 29–31, 2026</p>
-                <p><strong>Venue:</strong> Botswana School of Business Science</p>
+                <h3>2026 Event Details</h3>
+                <p><strong>Dates:</strong> 29 - 31 July 2026</p>
+                <p><strong>Venue:</strong> Botswana School of Business Sciences</p>
                 <p><strong>Location:</strong> Gaborone, Botswana</p>
-                <p><strong>Expected Attendees:</strong> 300+ participants</p>
-                <p><strong>Speakers:</strong> 25+ international and local experts</p>
+                <p><strong>Expected delegates:</strong> 300+ in person</p>
+                <p><strong>Programme:</strong> Keynotes, tutorials, hackathon, AI Fest, poster session, workshops, meetups, mentorship, booths, and awards</p>
             </div>
         </div>
     </div>
@@ -71,43 +68,62 @@
 
 <section class="mission-section">
     <div class="container">
-        <h2>Our Mission</h2>
+        <h2>What the 2026 Theme Means</h2>
         <div class="mission-cards">
             <div class="mission-card">
                 <div class="mission-card-header">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>Education</h3>
+                    <i class="fas fa-database"></i>
+                    <h3>Our Data</h3>
                 </div>
                 <div class="mission-card-body">
-                    <p>Build AI capacity through accessible, high-quality training and knowledge sharing</p>
+                    <p>Meaningful AI must reflect African languages, environments, institutions, and lived realities.</p>
                 </div>
             </div>
             <div class="mission-card">
                 <div class="mission-card-header">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Collaboration</h3>
+                    <i class="fas fa-brain"></i>
+                    <h3>Our Intelligence</h3>
                 </div>
                 <div class="mission-card-body">
-                    <p>Foster partnerships between academia, industry, and government to advance AI in Botswana</p>
+                    <p>AI solutions should be designed, tested, and improved by African researchers, developers, innovators, and communities.</p>
                 </div>
             </div>
             <div class="mission-card">
                 <div class="mission-card-header">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Innovation</h3>
+                    <i class="fas fa-seedling"></i>
+                    <h3>Our Future</h3>
                 </div>
                 <div class="mission-card-body">
-                    <p>Inspire and support local AI solutions to address Botswana's unique challenges</p>
+                    <p>The purpose is tangible impact across healthcare, agriculture, education, finance, public service, and beyond.</p>
                 </div>
             </div>
-            <div class="mission-card">
-                <div class="mission-card-header">
-                    <i class="fas fa-globe-africa"></i>
-                    <h3>Inclusion</h3>
-                </div>
-                <div class="mission-card-body">
-                    <p>Ensure diverse participation and perspectives in AI development</p>
-                </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section about-dark">
+    <div class="container">
+        <h2>Mission &amp; Key Programmes</h2>
+        <div class="achievement-grid">
+            <div class="achievement-card">
+                <span>01</span>
+                <h3>Scientific knowledge</h3>
+                <p>Spread machine learning and deep learning knowledge among researchers, students, and practitioners.</p>
+            </div>
+            <div class="achievement-card">
+                <span>02</span>
+                <h3>Industry applications</h3>
+                <p>Showcase cutting-edge applications from industry partners, startups, companies, and research groups.</p>
+            </div>
+            <div class="achievement-card">
+                <span>03</span>
+                <h3>Beginner pathways</h3>
+                <p>Provide practical introductions to deep learning, data science, and applied AI for people entering the field.</p>
+            </div>
+            <div class="achievement-card">
+                <span>04</span>
+                <h3>Responsible community</h3>
+                <p>Build a community of responsible AI practitioners who can lead, collaborate, and serve Botswana's needs.</p>
             </div>
         </div>
     </div>
@@ -115,27 +131,49 @@
 
 <section class="highlights-section">
     <div class="container">
-        <h2>Past Highlights</h2>
+        <h2>2025 Highlights</h2>
+        <p class="section-subtitle">IndabaX Botswana continues to grow as one of the fastest-growing IndabaX chapters in Africa.</p>
+        <div class="achievement-grid light">
+            <div class="achievement-card"><span>250+</span><h3>Attendees</h3><p>Participants joined the 2025 edition at Botho University.</p></div>
+            <div class="achievement-card"><span>10+</span><h3>Speakers</h3><p>Local, African, and international voices contributed to the programme.</p></div>
+            <div class="achievement-card"><span>6</span><h3>Partners</h3><p>Partners supported the event and helped strengthen the local ecosystem.</p></div>
+            <div class="achievement-card"><span>43%</span><h3>Women</h3><p>The community continues working toward broader and more inclusive participation.</p></div>
+            <div class="achievement-card"><span>12</span><h3>Posters</h3><p>Research and applied projects were showcased through poster presentations.</p></div>
+            <div class="achievement-card"><span>15+</span><h3>Organisers &amp; volunteers</h3><p>A committed team made the event possible on the ground.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mission-section">
+    <div class="container">
+        <h2>Chapter Timeline</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <div class="timeline-date">2023</div>
+                <div class="timeline-date">2019</div>
                 <div class="timeline-content">
-                    <h3>IndabaX Botswana 2023</h3>
-                    <p>Focused on "AI for Sustainable Development" with 250+ attendees and workshops on computer vision and NLP</p>
+                    <h3>Botho University</h3>
+                    <p>An early IndabaX Botswana chapter event helped establish a foundation for local AI community building.</p>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">2022</div>
+                <div class="timeline-date">2024</div>
                 <div class="timeline-content">
-                    <h3>IndabaX Botswana 2022</h3>
-                    <p>Virtual edition with international speakers and a hackathon addressing healthcare challenges</p>
+                    <h3>Botho University</h3>
+                    <p>The community returned with renewed energy, reconnecting students, researchers, and local AI practitioners.</p>
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">2021</div>
+                <div class="timeline-date">2025</div>
                 <div class="timeline-content">
-                    <h3>IndabaX Botswana 2021</h3>
-                    <p>Inaugural event establishing the foundation for AI community building in Botswana</p>
+                    <h3>Botho University</h3>
+                    <p>The chapter grew with 250+ attendees, 10+ speakers, 6 partners, workshops, posters, and a strong volunteer base.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <h3>Botswana School of Business Sciences</h3>
+                    <p>The next edition moves to Gaborone for a three-day programme with AI Fest, poster session, hackathon, tutorials, lectures, mentorship, booths, and awards.</p>
                 </div>
             </div>
         </div>
