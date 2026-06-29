@@ -46,10 +46,11 @@
 <section class="about-section">
     <div class="container">
         <p class="about-kicker">Deep Learning IndabaX Botswana 2026</p>
-        <h2>Igniting Botswana's AI community through learning, leadership, and local impact.</h2>
+        <h2>Part of the wider Deep Learning Indaba network, growing AI from the ground up in Botswana.</h2>
         <div class="about-grid">
             <div>
-                <p>Inspired by the Deep Learning Indaba mission, IndabaX Botswana brings together students, researchers, developers, startups, industry partners, and public-sector stakeholders to strengthen machine learning in Botswana.</p>
+                <p>IndabaX Botswana is part of the wider Deep Learning Indaba network: a pan-African grassroots movement strengthening machine learning and artificial intelligence across the continent.</p>
+                <p>As a local chapter, we bring that movement home to Botswana by creating space for students, researchers, developers, startups, industry partners, and public-sector stakeholders to learn, build, lead, and collaborate.</p>
                 <p>The 2026 gathering is community-driven and practical: it spreads scientific knowledge, showcases cutting-edge applications, introduces beginners to deep learning, and builds a community of responsible AI practitioners.</p>
                 <p>Our theme, <strong>"Our Data. Our Intelligence. Our Future."</strong>, is a call to move from consumption to ownership: African data, African builders, and measurable benefits for African communities.</p>
                 <div class="ix-free-pill"><i class="fas fa-star"></i> The IndabaX is <strong>free to attend</strong> for students.</div>
@@ -61,6 +62,36 @@
                 <p><strong>Location:</strong> Gaborone, Botswana</p>
                 <p><strong>Expected delegates:</strong> 300+ in person</p>
                 <p><strong>Programme:</strong> Keynotes, tutorials, hackathon, AI Fest, poster session, workshops, meetups, mentorship, booths, and awards</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mission-section network-section">
+    <div class="container">
+        <p class="about-kicker">A grassroots AI movement</p>
+        <h2>Local chapter, continental network.</h2>
+        <p class="section-subtitle">IndabaX events extend the Deep Learning Indaba mission beyond the annual gathering by building local communities, creating leadership, recognising African excellence, and activating the next generation of AI practitioners.</p>
+        <div class="achievement-grid light">
+            <div class="achievement-card">
+                <span>47</span>
+                <h3>IndabaX chapters</h3>
+                <p>Botswana is connected to a wider network of African communities growing machine learning locally.</p>
+            </div>
+            <div class="achievement-card">
+                <span>BW</span>
+                <h3>Grassroots leadership</h3>
+                <p>The chapter is organised by people building the ecosystem from inside the community, not from the outside in.</p>
+            </div>
+            <div class="achievement-card">
+                <span>AI</span>
+                <h3>Responsible practitioners</h3>
+                <p>The goal is not only to teach tools, but to grow practitioners who understand context, responsibility, and impact.</p>
+            </div>
+            <div class="achievement-card">
+                <span>DLI</span>
+                <h3>Pan-African pathway</h3>
+                <p>Many IndabaX Botswana participants continue into the broader Deep Learning Indaba community across Africa.</p>
             </div>
         </div>
     </div>
