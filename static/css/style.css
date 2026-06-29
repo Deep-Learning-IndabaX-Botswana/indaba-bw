@@ -1045,6 +1045,24 @@ select:focus {
     color: var(--text-light);
 }
 
+.network-section {
+    background:
+        radial-gradient(circle at top left, rgba(245, 168, 0, 0.08), transparent 32%),
+        var(--light-bg);
+}
+
+.network-section .about-kicker,
+.network-section h2,
+.network-section .section-subtitle {
+    text-align: center;
+}
+
+.network-section .section-subtitle {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ========== MISSION SECTION ========== */
 .mission-section {
     background-color: var(--light-bg);
